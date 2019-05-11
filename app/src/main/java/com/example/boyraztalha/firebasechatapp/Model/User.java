@@ -4,15 +4,14 @@ public class User {
 
     String id;
     String username;
-    String imageUrl;
+    String imageURL;
 
     public User(){};
 
-
-    public User(String id, String username, String imageUrl) {
+    public User(String id, String username, String imageURL) {
         this.id = id;
         this.username = username;
-        this.imageUrl = imageUrl;
+        this.imageURL = imageURL;
     }
 
     public String getId() {
@@ -31,11 +30,11 @@ public class User {
         this.username = username;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
+    public String getImageURL() {
+        return imageURL;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public void setImageURL(String imageURL) {
+        this.imageURL = imageURL;
     }
 }
